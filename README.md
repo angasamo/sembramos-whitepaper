@@ -136,11 +136,9 @@ A utility token (not an investment instrument) inspired by Binance's BNB model: 
 
 Everything in Part III is financial and software infrastructure. The founder's longer-term ambition for Sembramos goes further, into physical infrastructure that the digital layer makes possible — none of this is sequenced into Phases 1–4 above, and none of it has a committed timeline. It's included because a document about "how ambitious is this project" is incomplete without it.
 
-### 13. 🔮 Collection centers ("centros de acopio")
+### 13. 🔮 Collection centers ("centros de acopio") — as storage infrastructure, not trading
 
-**Concept:** regional physical points where farmers could consolidate and store harvests before sale, directly attacking the 15–30% post-harvest waste that CEPAL estimates happens today when a farmer can't find a buyer fast enough (see Part V). Sembramos's own transaction data — which zone, which crop, which timing patterns repeat — would inform *where* a center makes sense before any physical capital is spent, rather than guessing.
-
-**The honest tension, stated directly:** operating a physical collection center would make Sembramos a direct participant in the market it currently only connects — a real strategic shift from the neutral-platform positioning the live product is built on today (Part I, Section 2). This is exactly why it's presented here as a distant, unsequenced vision rather than folded into the numbered roadmap: it needs to be positioned carefully so it never contradicts "Sembramos doesn't compete with intermediaries," not rushed into.
+**Concept:** regional physical storage points where farmers could consolidate harvests before sale — structured as an *infrastructure service*, not a trading operation. Modeled on Amazon FBA and MercadoLibre's Mercado Envíos Full: the farmer keeps ownership of the harvest and keeps setting their own price; Sembramos charges a flat storage/handling fee, the same way it already charges for WhatsApp access today. This preserves the neutral-platform positioning the live product is built on (Part I, Section 2) instead of contradicting it — Sembramos never buys or resells a single crop. (A fundamentally different model — buying and reselling directly, closer to Twiga Foods in Part VI — is a real alternative some agri-platforms choose, but it would mean becoming a supply-chain company rather than a marketplace, a distinct strategic decision this document does not make.) Sembramos's own transaction data — which zone, which crop, which timing patterns repeat — would inform *where* a center makes sense before any physical capital is spent, rather than guessing.
 
 ### 14. 🔮 Direct connection to end retailers and merchants
 
