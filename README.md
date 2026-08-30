@@ -1,7 +1,7 @@
 # SEMBRAMOS — Technical & Business Whitepaper
 ## AI-Native Agricultural Marketplace · Venezuela
 
-**Version 2.2 — August 2026**
+**Version 2.3 (final) — August 2026**
 **Public document — prepared for judges, reviewers, and potential partners of the Build with Gemini XPRIZE**
 
 ---
@@ -91,6 +91,8 @@ reference_price_USD = MEDIAN of confirmed bilateral contracts (7-day rolling win
 
 Median, never average — resistant to a single outlier transaction. With fewer than 3 real transactions for a product, Sembramos shows it honestly as an "initial estimate," never as a real reference. **Today, 0 of 58 catalog items have enough real transaction volume to show a "real" price** — this is stated honestly in the product itself, not hidden.
 
+This median is always computed within a single trade tier — a farmer-to-buyer transaction and a buyer-to-buyer resale transaction are never pooled into the same number (see Part IV, Section 15). A wholesale resale price and a farm-gate price mean different things; blending them would make the reference price ambiguous for the exact people it's meant to protect. Same principle every real wholesale market already follows — farm-gate and wholesale prices are always published as separate figures, never one blended average.
+
 ### 8. ✅ AI planting guidance — real today, not a roadmap item
 
 Beyond the marketplace itself, Sembramos already runs a Gemini-powered advisory layer inside "Mis Cultivos" (My Crops), built across six iterative phases and live in production today:
@@ -159,6 +161,8 @@ Everything in Part III is direct monetization of infrastructure Sembramos alread
 ### 15. 🔮 Direct connection to end retailers and merchants
 
 **Concept:** today, Sembramos's marketplace connects farmers to intermediaries and wholesale buyers ("ferieros"). The next logical extension downstream is connecting demand further — to supermarket chains and large-scale end buyers who today source through several layers of intermediation they don't fully see through. This doesn't remove the intermediary layer already using Sembramos; it adds a new, larger class of buyer onto the same reference-price infrastructure everyone already trusts.
+
+**What this requires, stated precisely:** the reference price has to be segmented by trade tier, not extended from the single blended median described in Part II, Section 7 — a farmer-to-buyer price and an intermediary-to-wholesale-buyer resale price shown as two distinct, clearly labeled numbers, never pooled. The data needed already exists (every account's role is already recorded), so this is a filtering change to an existing calculation, not new infrastructure. It also clarifies what monetizes this extension: the same 1% commission from Phase 2 (Section 11) applies here too — a bigger buyer joining doesn't require a new fee mechanism, it means more GMV flowing through the one Sembramos already has planned.
 
 ### 16. 🔮 From individual advice to national-scale agricultural planning
 
