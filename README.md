@@ -1,7 +1,7 @@
 # SEMBRAMOS — Technical & Business Whitepaper
 ## AI-Native Agricultural Marketplace · Venezuela
 
-**Version 2.1 — August 2026**
+**Version 2.2 — August 2026**
 **Public document — prepared for judges, reviewers, and potential partners of the Build with Gemini XPRIZE**
 
 ---
@@ -105,6 +105,8 @@ This is described here in more detail than a typical roadmap item precisely beca
 
 ## PART III — BUSINESS MODEL: TODAY VS. ROADMAP
 
+Every phase below is sequenced deliberately: each one is built on the trust or data asset the previous phase creates, rather than competing with it for attention or resources. None is presented as replacing another.
+
 ### 9. ✅ Phase 1 — Today (in production)
 
 - Individual WhatsApp unlock: $0.50
@@ -112,13 +114,31 @@ This is described here in more detail than a typical roadmap item precisely beca
 - Every payment is manually reviewed before activation — no auto-approval, closed as a real vulnerability earlier in development
 - **Why it works at this stage:** the reference price already has value on its own (a buyer pays to avoid overpaying); WhatsApp access is the actual asset being sold
 
-### 10. 🔮 Phase 2 — Commission on GMV (not built, targeted Q4 2026)
+### 10. 🔮 Phase 1B — Farm-management subscription (extends Phase 1, not a separate business)
+
+**Concept:** a paid tier of "Mis Cultivos" (My Crops), the Gemini-powered farm advisory layer already live today (Part II, Section 8). The baseline — "What should I plant?", basic crop diary, phase tracking — stays free, deliberately, for the same reason it launched free: protecting the platform's financial-inclusion positioning. The paid tier unlocks what a farmer needs once they're managing real scale: multi-plot margin/ROI comparison, season-over-season trend analysis, exportable records, priority AI response time. Same freemium logic the marketplace itself already uses — the reference price is always free, contact access is what's paid.
+
+**Why this reinforces Phase 1 instead of competing with it:** a $3/month marketplace subscriber today only has a reason to open the app when actively buying or selling — real but sporadic usage. A farm-management subscription gives the same subscriber a reason to open the app daily, independent of that week's transactions. Higher daily engagement lowers churn on the core subscription and, just as importantly, reduces "off-platform leakage" — the standard two-sided-marketplace risk where two parties find each other once through the app and then move the relationship to WhatsApp permanently. Every contact-unlock marketplace faces this; giving users a reason to keep opening the app beyond the transaction itself is the standard mitigation.
+
+**What it sets up for later:** at real scale, this is also where Sembramos starts accumulating something most Venezuelan smallholder farmers structurally lack — verifiable, multi-cycle crop records. That asset is what Section 12 depends on.
+
+### 11. 🔮 Phase 2 — Commission on GMV (not built, targeted Q4 2026)
 
 **Concept:** a 1% fee on the subtotal of *bilaterally confirmed* contracts only — never charged on pending, cancelled, or failed contracts, and charged to the buyer (same model as MercadoLibre). This is money Sembramos earns for its own service, not third-party funds — it only requires a normal business bank account, not a fund-holding license.
 
-**Why 1% specifically:** Binance charges 0.1% (high-frequency, thin margins per trade); MercadoLibre charges 2–10% (with escrow, logistics, buyer protection). At Sembramos's transaction size and frequency, 1% is competitive against the ~20–40% margin an informal intermediary already captures today, without Sembramos providing escrow yet.
+**Why 1% specifically:** Binance charges 0.1% (high-frequency, thin margins per trade); MercadoLibre charges 2–10% (with escrow, logistics, buyer protection). At Sembramos's transaction size and frequency, 1% is competitive against the ~20–40% margin an informal intermediary already captures today, without Sembramos providing escrow yet. Higher retention from Phase 1B (Section 10) directly compounds this — more transactions stay inside Sembramos instead of moving off-platform once two parties have found each other.
 
-### 11. 🔮 Phase 3 — Native escrow (not built, targeted Q2 2027)
+### 12. 🔮 Input-credit facilitation — data-gated, never Sembramos's own capital
+
+**Concept:** once Phase 1B (Section 10) has real scale, its crop-cycle records become a verifiable track record most Venezuelan smallholder farmers structurally lack today. Sembramos could use that data to score creditworthiness for input financing (seeds, fertilizer, tools), repaid from the next harvest — a problem several real ag-fintechs have already solved profitably elsewhere.
+
+**Why Sembramos doesn't lend directly:** lending is a regulated financial activity requiring real reserve capital and a license — not something to put on Sembramos's own balance sheet at this stage, or arguably ever, given the company's actual strength is data and software, not capital markets. The professional structure: Sembramos scores and refers; a real lender (a bank, microfinance institution, or input supplier with its own capital) originates the loan and carries the credit risk. Sembramos is the intelligence and distribution layer, not the balance sheet.
+
+**Real precedent, directly on point:** Apollo Agriculture (Kenya) uses machine-learning credit models built from farm data to give smallholder farmers instant input-financing decisions, repaid from the harvest — not from Apollo's own capital, but structured through securitization backed by real investors. Its most recent raise, closed May 2026, mobilized KES 276M in debt financing for roughly 24,000 farmers, part of a multi-year program targeting 130,000+; the company has raised $70.3M total from investors including SoftBank Vision Fund. This is the exact model — data-driven scoring, third-party capital, farmer-facing distribution — Sembramos would need to replicate, not invent from scratch.
+
+**Sequencing, stated honestly:** this only becomes credible once Section 10's data has real volume. Scoring credit on a handful of records would be building on nothing — this is explicitly the last piece of Part III to build, not the first.
+
+### 13. 🔮 Phase 3 — Native escrow (not built, targeted Q2 2027)
 
 **Concept:** buyer pays into a Sembramos-held account before the seller ships; funds release to the seller once both sides confirm, or automatically after a fixed window if there's no dispute. If disputed, Sembramos reviews photo evidence and the in-app chat history before releasing funds. Unlike Phase 2, this means Sembramos temporarily holds *someone else's* money — a materially bigger regulatory and banking obligation, not just "more commission."
 
@@ -126,25 +146,21 @@ This is described here in more detail than a typical roadmap item precisely beca
 
 **Jurisdiction — stated directly, technically, honestly:** this is an open question under active research, not a decision already made. The real constraint isn't "which country sounds best" — it's narrower and more concrete: **Sembramos's founder holds Venezuelan citizenship**, and the most accessible US fintech banking route for international founders, Mercury, has a documented, flat 100% account-closure policy specifically for Venezuelan passport holders — regardless of where the entity itself is incorporated. This isn't a Venezuela-wide OFAC sanction (Venezuela is not comprehensively sanctioned); it's a bank-level risk policy that excludes this specific citizenship. A US entity is not ruled out — it requires finding a specific US bank willing to serve this founder profile before committing capital to US incorporation. Colombia (SAS) and Panama (SA) remain the leading near-term candidates not because they're inherently preferable to a US entity, but because they are realistic paths that can plausibly be *opened and kept operating* — including affording the real, ongoing compliance costs that come with legally holding third-party funds — with a Venezuelan passport. The decision will be made once a specific, workable path (in any jurisdiction) is confirmed open in practice, not chosen on assumption.
 
-### 12. 🔮 Phase 4 — SIEMBRA utility token (not built, 2028+, lowest-confidence part of the roadmap)
+### 14. 🔮 Phase 4 — SIEMBRA utility token (not built, 2028+, lowest-confidence part of the roadmap)
 
 A utility token (not an investment instrument) inspired by Binance's BNB model: paying platform fees with SIEMBRA earns a discount, and verified farmers earn SIEMBRA for maintaining real crop-cycle records with the app. This phase has no committed timeline and is included for completeness, not because it's a near-term priority.
 
 ---
 
-## PART IV — 🔮 THE FULLER VISION: FROM DIGITAL LAYER TO PHYSICAL INFRASTRUCTURE
+## PART IV — 🔮 BEYOND THE ROADMAP: WHERE THE DATA FLYWHEEL LEADS
 
-Everything in Part III is financial and software infrastructure. The founder's longer-term ambition for Sembramos goes further, into physical infrastructure that the digital layer makes possible — none of this is sequenced into Phases 1–4 above, and none of it has a committed timeline. It's included because a document about "how ambitious is this project" is incomplete without it.
+Everything in Part III is direct monetization of infrastructure Sembramos already has — the marketplace and, once built, the farm-data layer. The two ideas below go one step further: how the same trust and data assets could extend the platform's reach. Neither is sequenced into a numbered phase and neither has a committed timeline.
 
-### 13. 🔮 Collection centers ("centros de acopio") — as storage infrastructure, not trading
-
-**Concept:** regional physical storage points where farmers could consolidate harvests before sale — structured as an *infrastructure service*, not a trading operation. Modeled on Amazon FBA and MercadoLibre's Mercado Envíos Full: the farmer keeps ownership of the harvest and keeps setting their own price; Sembramos charges a flat storage/handling fee, the same way it already charges for WhatsApp access today. This preserves the neutral-platform positioning the live product is built on (Part I, Section 2) instead of contradicting it — Sembramos never buys or resells a single crop. (A fundamentally different model — buying and reselling directly, closer to Twiga Foods in Part VI — is a real alternative some agri-platforms choose, but it would mean becoming a supply-chain company rather than a marketplace, a distinct strategic decision this document does not make.) Sembramos's own transaction data — which zone, which crop, which timing patterns repeat — would inform *where* a center makes sense before any physical capital is spent, rather than guessing.
-
-### 14. 🔮 Direct connection to end retailers and merchants
+### 15. 🔮 Direct connection to end retailers and merchants
 
 **Concept:** today, Sembramos's marketplace connects farmers to intermediaries and wholesale buyers ("ferieros"). The next logical extension downstream is connecting demand further — to supermarket chains and large-scale end buyers who today source through several layers of intermediation they don't fully see through. This doesn't remove the intermediary layer already using Sembramos; it adds a new, larger class of buyer onto the same reference-price infrastructure everyone already trusts.
 
-### 15. 🔮 From individual advice to national-scale agricultural planning
+### 16. 🔮 From individual advice to national-scale agricultural planning
 
 Part II, Section 8 described what the AI planting-guidance layer already does today, for one farmer at a time. The longer-term vision: the same aggregated, anonymized data that powers one farmer's recommendation today could, at national scale, inform real crop-diversification patterns across regions — reducing the oversupply-in-one-place, shortage-in-another whiplash that shows up in Sembramos's own price data (the exact $35-vs-$115 gap this document opens with). This is explicitly presented as an extension of something already built and running, not a new, unproven feature category.
 
@@ -157,7 +173,8 @@ Part II, Section 8 described what the AI planting-guidance layer already does to
 | Founder solo, unlimited personal liability (sole proprietorship structure) | Under active evaluation: forming a dedicated legal entity for Sembramos, separate from the founder's other commercial activity |
 | Low current transaction volume (10 real contracts, 1 completed) | Small sample size is stated honestly everywhere in the product itself — no fabricated "real" price is ever shown |
 | Regulatory risk if Venezuela regulates digital marketplaces | Roadmap already anticipates a foreign legal entity before any money-holding feature (escrow) launches |
-| Founder's citizenship restricts the most accessible US banking routes (see Part III, Section 11) | Multiple jurisdictions under active, parallel research — decision gated on confirmed real-world operability, not assumption |
+| Founder's citizenship restricts the most accessible US banking routes (see Part III, Section 13) | Multiple jurisdictions under active, parallel research — decision gated on confirmed real-world operability, not assumption |
+| Input-credit facilitation means introducing real third-party credit risk and counterparty dependence (Part III, Section 12) | Sembramos never lends directly — only scores and refers to a licensed lending partner; explicitly sequenced behind Phase 1B reaching real data scale, not built prematurely |
 | Low rural internet penetration | Voice-first design + offline-tolerant data writes already in production |
 | Distrust of digital platforms in an informal cash economy | Free, no-login public price reference; real farmer testimonials; voice mode for users who can't read or write |
 
@@ -172,10 +189,11 @@ Every comparison below is a real, sourced case — not a generic "other platform
 | **Binance** (2017) — launched with no formal entity, built compliance in year two, not year one | Product-and-network first, formal compliance layered in deliberately, not skipped |
 | **MercadoLibre / MercadoPago** (1999→2003) — marketplace first, escrow four years later | Trust has to be earned by the marketplace before a payments layer makes sense |
 | **Twiga Foods** (Kenya, 2014) — B2B agri platform paying farmers 20–40% more than informal market rate, in 24h via mobile money | Farmers adopt a platform because of the direct economic gain, not the technology story |
+| **Apollo Agriculture** (Kenya, ongoing) — uses ML credit scoring built from farm data to finance smallholder inputs, repaid from harvest via third-party capital (KES 276M raised May 2026 alone for ~24,000 farmers, $70.3M total raised, backers include SoftBank Vision Fund) | Confirms data-driven input-credit is a real, fundable model — and that the capital comes from investors/lenders, never the platform's own balance sheet |
 | **Fina** (Venezuela, 2024–2026) — B2B SaaS for Venezuelan SMBs, raised a **$1M seed round in August 2026** with 5,000+ active businesses and ~$2M ARR at the time of raising | The closest real comparable to Sembramos: same country, same early stage, proof that real capital is actively funding Venezuelan SaaS *right now* |
 | **Cashea** (Venezuela, 2024–2026) — BNPL fintech, raised **$100M total** ($40M Series A March 2026 + $60M Series B June 2026), 10M+ consumer accounts | Confirms Venezuela itself is investable again in 2026, at meaningfully larger scale than a seed round |
 
-Sources: [Fina raises $1M seed — LatamList](https://latamlist.com/venezuelan-fintech-fina-raises-1m-seed-round/) · [Cashea secures $100M — Crowdfund Insider](https://www.crowdfundinsider.com/2026/07/293776-venezuelan-fintech-cashea-secures-100m-from-global-backers-amid-credit-revival/) · [How Binance handles account deletion](https://www.binance.com/en/support/faq/how-to-delete-my-binance-account-f02c2640a1cd44e58de68e4a49d599f6) · [Mercury Bank Account Closures — prohibited countries/citizenships](https://www.growthhq.io/our-thinking/mercury-bank-account-closures-2024-2025-compliance-risks-regional-impacts-and-critical-steps-for-businesses-in-prohibited-countries)
+Sources: [Fina raises $1M seed — LatamList](https://latamlist.com/venezuelan-fintech-fina-raises-1m-seed-round/) · [Cashea secures $100M — Crowdfund Insider](https://www.crowdfundinsider.com/2026/07/293776-venezuelan-fintech-cashea-secures-100m-from-global-backers-amid-credit-revival/) · [Apollo Agriculture and Kaleidofin close Kenya's first private-sector agri securitisation](https://tech-ish.com/2026/05/06/apollo-kaleidofin-agri-securitisation-kenya/) · [How Binance handles account deletion](https://www.binance.com/en/support/faq/how-to-delete-my-binance-account-f02c2640a1cd44e58de68e4a49d599f6) · [Mercury Bank Account Closures — prohibited countries/citizenships](https://www.growthhq.io/our-thinking/mercury-bank-account-closures-2024-2025-compliance-risks-regional-impacts-and-critical-steps-for-businesses-in-prohibited-countries)
 
 ---
 
@@ -183,7 +201,7 @@ Sources: [Fina raises $1M seed — LatamList](https://latamlist.com/venezuelan-f
 
 This project started in May 2026 — before the founder knew the Build with Gemini XPRIZE existed — as a direct response to a real problem in his own community. It has been built, largely solo, through near-daily iteration: **568 commits since June 13, 2026**, each one reviewed for correctness before shipping, with a documented history of finding and closing real security and product bugs before they reached users.
 
-The single most consequential open question right now isn't technical — it's structural: whether to formalize Sembramos as its own legal entity (separate finances, limited liability, a clean story for any future investor) versus continuing to build under the founder's existing sole-proprietorship registration, which is also used for unrelated commercial activity. Both the entity's jurisdiction (Part III, Section 11) and this broader question are being researched deliberately, not rushed — consistent with how the rest of this project has been built.
+The single most consequential open question right now isn't technical — it's structural: whether to formalize Sembramos as its own legal entity (separate finances, limited liability, a clean story for any future investor) versus continuing to build under the founder's existing sole-proprietorship registration, which is also used for unrelated commercial activity. Both the entity's jurisdiction (Part III, Section 13) and this broader question are being researched deliberately, not rushed — consistent with how the rest of this project has been built.
 
 ---
 
