@@ -1,7 +1,7 @@
 # SEMBRAMOS — Technical & Business Whitepaper
 ## AI-Native Agricultural Marketplace · Venezuela
 
-**Version 3.7 — August 2026**
+**Version 3.8 — August 2026**
 **Public document — prepared for judges, reviewers, and potential partners of the Build with Gemini XPRIZE**
 
 ---
@@ -220,7 +220,7 @@ This project started in May 2026 — before the founder knew the Build with Gemi
 
 **How Sembramos grows today, stated plainly:** everything to date has been self-funded and self-managed — no government program, no accelerator, no formal grant. Distribution runs on two channels: organic word of mouth from real users who know the founder directly, and social media, where daily feedback and comments are the actual mechanism through which a Venezuelan farmer learns Sembramos exists. Direct outreach to established regional organizations is also underway — an initial conversation with Integración Nacional de Agroproductores de Venezuela, with a follow-up call planned to walk through how the app works, aimed at eventually introducing it to their own network of farmers. No formal partnership or endorsement exists yet; this is stated as exactly what it is — a real, early conversation, not a signed relationship.
 
-**A concrete example of that word of mouth:** Ángeles Mattey, a real user of the platform, has given live tutorials to her own community on how to use Sembramos — exactly the kind of organic, unpaid adoption this project's growth depends on today.
+**That second channel has a name:** Ángeles Mattey, Sembramos co-founder, in charge of real-world app testing and social media — including live community tutorials on how to use the platform.
 
 The single most consequential open question right now isn't technical — it's structural: whether to formalize Sembramos as its own legal entity (separate finances, limited liability, a clean story for any future investor) versus continuing to build under the founder's existing sole-proprietorship registration, which is also used for unrelated commercial activity. Both the entity's jurisdiction (Part III, Section 13) and this broader question are being researched deliberately, not rushed — consistent with how the rest of this project has been built.
 
