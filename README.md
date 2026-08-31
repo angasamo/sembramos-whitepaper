@@ -1,7 +1,7 @@
 # SEMBRAMOS — Technical & Business Whitepaper
 ## AI-Native Agricultural Marketplace · Venezuela
 
-**Version 3.5 — August 2026**
+**Version 3.6 — August 2026**
 **Public document — prepared for judges, reviewers, and potential partners of the Build with Gemini XPRIZE**
 
 ---
@@ -121,7 +121,7 @@ Every phase below is sequenced deliberately: each one is built on the trust or d
 
 **Why this reinforces Phase 1 instead of competing with it:** a $3/month marketplace subscriber today only has a reason to open the app when actively buying or selling — real but sporadic usage. A farm-management subscription gives the same subscriber a reason to open the app daily, independent of that week's transactions. Higher daily engagement lowers churn on the core subscription and, just as importantly, reduces "off-platform leakage" — the standard two-sided-marketplace risk where two parties find each other once through the app and then move the relationship to WhatsApp permanently. Every contact-unlock marketplace faces this; giving users a reason to keep opening the app beyond the transaction itself is the standard mitigation.
 
-**Price:** $5.00/month. Higher than the marketplace subscription (Phase 1's $3.00) on purpose — this is a materially more complete product, built across six iterative phases (recurring assistance tracking, photo-based diagnosis with community-sourced treatment history, per-plot financial dashboards, AI-assisted cycle close-out) plus Brote, the guided advisory layer that walks a farmer through the whole tool. Even at $5, it undercuts what comparable farm-management software charges in wealthier markets ($10–30+/month) by a wide margin, while still reflecting genuine willingness to pay already demonstrated at the $3.00 price point.
+**Price:** $3.00/month — matching the existing marketplace subscription (Phase 1) price point exactly, for now. Keeping both subscriptions at the same price avoids one undercutting the other and keeps the decision simple for a farmer choosing between them: same price, different value (market access vs. full farm management). This is deliberately a starting point, not a permanent anchor — Mis Cultivos plus Brote is a materially more complete product, built across six iterative phases (recurring assistance tracking, photo-based diagnosis with community-sourced treatment history, per-plot financial dashboards, AI-assisted cycle close-out), and both prices remain far below what comparable farm-management software charges in wealthier markets ($10–30+/month).
 
 **Milestone to unlock:** 500 registered users. Below that scale, splitting Mis Cultivos into free and paid tiers doesn't move revenue and there isn't enough usage data yet to know which advanced features farmers actually value. At 500, the farmer base is large enough for a premium tier to generate real incremental revenue and to keep refining based on real usage.
 
