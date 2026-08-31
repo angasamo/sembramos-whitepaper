@@ -1,7 +1,7 @@
 # SEMBRAMOS — Technical & Business Whitepaper
 ## AI-Native Agricultural Marketplace · Venezuela
 
-**Version 3.1 — August 2026**
+**Version 3.2 — August 2026**
 **Public document — prepared for judges, reviewers, and potential partners of the Build with Gemini XPRIZE**
 
 ---
@@ -107,7 +107,7 @@ This is described here in more detail than a typical roadmap item precisely beca
 
 ## PART III — BUSINESS MODEL: TODAY VS. ROADMAP
 
-Every phase below is sequenced deliberately: each one is built on the trust or data asset the previous phase creates, rather than competing with it for attention or resources. None is presented as replacing another.
+Every phase below is sequenced deliberately: each one is built on the trust or data asset the previous phase creates, rather than competing with it for attention or resources. Progression between phases is gated on real registered-user milestones, not calendar dates — a discipline this roadmap holds itself to throughout, so growth is measured the same way in every section.
 
 ### 9. ✅ Phase 1 — Today (in production)
 
@@ -122,17 +122,21 @@ Every phase below is sequenced deliberately: each one is built on the trust or d
 
 **Why this reinforces Phase 1 instead of competing with it:** a $3/month marketplace subscriber today only has a reason to open the app when actively buying or selling — real but sporadic usage. A farm-management subscription gives the same subscriber a reason to open the app daily, independent of that week's transactions. Higher daily engagement lowers churn on the core subscription and, just as importantly, reduces "off-platform leakage" — the standard two-sided-marketplace risk where two parties find each other once through the app and then move the relationship to WhatsApp permanently. Every contact-unlock marketplace faces this; giving users a reason to keep opening the app beyond the transaction itself is the standard mitigation.
 
+**Milestone to unlock:** 500 registered users. Below that scale, splitting Mis Cultivos into free and paid tiers doesn't move revenue and there isn't enough usage data yet to know which advanced features farmers actually value. At 500, the farmer base is large enough for a premium tier to generate real incremental revenue and to keep refining based on real usage.
+
 **What it sets up for later:** at real scale, this is also where Sembramos starts accumulating something most Venezuelan smallholder farmers structurally lack — verifiable, multi-cycle crop records. That asset is what Section 12 depends on.
 
-### 11. 🔮 Real benefits from real behavior, not a token
+### 11. 🔮 Real benefits from real behavior
 
-**Concept:** an earlier version of this roadmap included a SIEMBRA utility token, inspired by Binance's BNB model — cut for a real reason the founder raised directly: token economies are easy to manipulate, and Sembramos's target user (a farmer with no experience navigating that kind of system) is exactly who that manipulation would hurt most. The real alternative isn't a new economy — it's tying benefits directly to the trust and data assets Sembramos already has, the same loyalty loop Cashea itself runs: pay reliably, unlock a higher limit. Sembramos's version: behave well on the platform, unlock better real terms on it.
+**Concept:** Sembramos ties tangible benefits directly to the trust and data assets it already has — the same loyalty loop Cashea runs with its own users, where reliable behavior unlocks better real terms (Part VI). Sembramos's version: complete trades honestly and keep good crop records, and the platform gives back better real terms — never points or a balance to spend, always something the user can use immediately.
 
 **Two concrete levers, both using assets that already exist:**
 - **Marketplace perks tied to the existing "Verificado" badge** (Part II, Section 6 — already live: 3+ completed contracts, 85%+ reputation, 2+ distinct buyers): a subscription discount or a free period for badge holders, using the exact payment rail Phase 1 already has. Buildable without waiting for any other phase.
 - **Better input-credit terms** (Section 12) for farmers with strong, verifiable crop-cycle records and reputation — the same scoring mechanism already described there (Apollo Agriculture's model), now framed explicitly as the reward for good record-keeping, not just a technical detail of how scoring works.
 
-**Why this reinforces every phase instead of competing with them:** a token is a closed economy someone can game from outside it. A benefit tied to real behavior can't be gamed the same way — chasing a better badge or better credit terms means actually completing more trades honestly and keeping better crop records, which is the same real data every other phase in this roadmap depends on. It's not a separate business; it's the incentive that makes the existing engine turn faster.
+**Why this reinforces every phase instead of competing with them:** chasing a better badge or better credit terms means actually completing more trades honestly and keeping better crop records — the same real data every other phase in this roadmap depends on. It's not a separate business; it's the incentive that makes the existing engine turn faster.
+
+**Milestone to unlock:** ties to the Verificado badge criteria already in production (Part II, Section 6) — this is a benefits layer on top of a qualification bar that already exists, not a new user-count gate of its own.
 
 ### 12. 🔮 Input-credit facilitation — data-gated, never Sembramos's own capital
 
@@ -142,13 +146,13 @@ Every phase below is sequenced deliberately: each one is built on the trust or d
 
 **Real precedent, directly on point:** Apollo Agriculture (Kenya) uses machine-learning credit models built from farm data to give smallholder farmers instant input-financing decisions, repaid from the harvest — not from Apollo's own capital, but structured through securitization backed by real investors. Its most recent raise, closed May 2026, mobilized KES 276M in debt financing for roughly 24,000 farmers, part of a multi-year program targeting 130,000+; the company has raised $70.3M total from investors including SoftBank Vision Fund. This is the exact model — data-driven scoring, third-party capital, farmer-facing distribution — Sembramos would need to replicate, not invent from scratch.
 
-**Sequencing, stated honestly:** this only becomes credible once Section 10's data has real volume. Scoring credit on a handful of records would be building on nothing — this is explicitly the last piece of Part III to build, not the first.
+**Milestone to unlock:** 2,000 registered users. Credit scoring needs a statistically meaningful sample of multi-cycle crop records to be trustworthy, not a handful — the same real-data requirement Apollo Agriculture's own model depends on. At 2,000 users, Phase 1B's data has had time to accumulate real cycle history across enough farmers for scoring to mean something.
 
-### 13. 🔮 Phase 2 — Native escrow (not built — gated on real clients and capital, not a calendar date)
+### 13. 🔮 Phase 2 — Native escrow (not built — gated on a real user milestone, not a calendar date)
 
 **Concept:** buyer pays into a Sembramos-held account before the seller ships; funds release to the seller once both sides confirm, or automatically after a fixed window if there's no dispute. If disputed, Sembramos reviews photo evidence and the in-app chat history before releasing funds. This is the point where Sembramos actually holds *someone else's* money for the first time — a materially bigger regulatory and banking obligation than anything in Phase 1 or Phase 1B, and deliberately the only other numbered monetization phase in this roadmap.
 
-**A phase removed on purpose, stated honestly:** an earlier version of this roadmap included an intermediate step — a 1% commission on confirmed trades, charged *without* holding funds. It was cut after closer scrutiny: without fund custody, Sembramos has no reliable way to actually collect a per-transaction fee — it would depend on a separate, voluntarily-paid invoice with weak enforcement, closer to hoping than charging. That made the step more aspirational than real, so the honest roadmap skips straight from subscription revenue (Phase 1B) to the point where collection is actually enforceable: real fund custody.
+**Why the roadmap moves straight from subscription revenue to escrow:** collecting a per-transaction fee without holding funds would depend on a separate, voluntarily-paid invoice with weak enforcement — closer to hoping than charging. Real fund custody is what makes fee collection enforceable by design. Sembramos's monetization roadmap is built around that distinction: subscription revenue first, because it's collectible today with the payment rail already in production; escrow second, because it's the point where a transaction fee becomes something the platform can actually enforce rather than request.
 
 **What it would charge, roughly:** with real custody, a fee in the 2–3% range is a reasonable planning estimate — informed by the same precedents already in Part VI (Binance's 0.1% reflects zero custody or protection; MercadoLibre's 2–10% reflects real escrow and buyer protection) — still far below the ~20–40% margin an informal intermediary captures today. Not committed; the real number gets set once the legal requirements below are actually satisfied.
 
@@ -156,7 +160,7 @@ Every phase below is sequenced deliberately: each one is built on the trust or d
 
 **Jurisdiction — stated directly, technically, honestly:** this is an open question under active research, not a decision already made. The real constraint isn't "which country sounds best" — it's narrower and more concrete: **Sembramos's founder holds Venezuelan citizenship**, and the most accessible US fintech banking route for international founders, Mercury, has a documented, flat 100% account-closure policy specifically for Venezuelan passport holders — regardless of where the entity itself is incorporated. This isn't a Venezuela-wide OFAC sanction (Venezuela is not comprehensively sanctioned); it's a bank-level risk policy that excludes this specific citizenship. A US entity is not ruled out — it requires finding a specific US bank willing to serve this founder profile before committing capital to US incorporation. Colombia (SAS) and Panama (SA) remain the leading near-term candidates not because they're inherently preferable to a US entity, but because they are realistic paths that can plausibly be *opened and kept operating* — including affording the real, ongoing compliance costs that come with legally holding third-party funds — with a Venezuelan passport. The decision will be made once a specific, workable path (in any jurisdiction) is confirmed open in practice, not chosen on assumption.
 
-**When, honestly:** no calendar target. Gated on two real inputs that don't exist yet — enough paying clients to justify the legal and compliance investment, and the capital to make that investment — both pursued in parallel with product work, never promised on a quarter.
+**Milestone to unlock:** 5,000 registered users. At that scale, the platform's subscription revenue and real transaction volume plausibly justify the fixed cost of legal entity formation and licensed fund custody — the point where a two-sided marketplace typically graduates from listing fees to owning its own payment infrastructure. Capital for that investment is raised in parallel as the user base approaches this number, not promised on a calendar quarter.
 
 ---
 
