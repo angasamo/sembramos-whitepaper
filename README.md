@@ -1,7 +1,7 @@
 # SEMBRAMOS — Technical & Business Whitepaper
 ## AI-Native Agricultural Marketplace · Venezuela
 
-**Version 3.2 — August 2026**
+**Version 3.3 — August 2026**
 **Public document — prepared for judges, reviewers, and potential partners of the Build with Gemini XPRIZE**
 
 ---
@@ -81,7 +81,6 @@ Gemini powers: natural-language publishing by voice or text, honest planting rec
 - WhatsApp uniqueness enforced across accounts (`whatsapp_index`)
 - **Account deletion with a 30-day grace period** (built this week) — no data is destroyed instantly; a user can recover their account by simply logging back in before the deadline
 - **Permanent WhatsApp lock after a completed account deletion** — a deliberately stricter choice than the 30-day cooldown used by Binance (researched before building), because IP-based signals are unreliable in Venezuela's shared mobile networks (CGNAT) and WhatsApp is the platform's only real identity anchor
-- A real security audit this week found and closed a gap that let any account self-assign a fake "verified" status and fake reputation counters at registration — fixed, deployed, and verified against production with live test writes before and after the fix
 
 ### 7. Price reference — the core trust mechanic
 
