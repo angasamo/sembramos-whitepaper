@@ -1,7 +1,7 @@
 # SEMBRAMOS — Technical & Business Whitepaper
 ## AI-Native Agricultural Marketplace · Venezuela
 
-**Version 3.3 — August 2026**
+**Version 3.4 — August 2026**
 **Public document — prepared for judges, reviewers, and potential partners of the Build with Gemini XPRIZE**
 
 ---
@@ -121,6 +121,8 @@ Every phase below is sequenced deliberately: each one is built on the trust or d
 
 **Why this reinforces Phase 1 instead of competing with it:** a $3/month marketplace subscriber today only has a reason to open the app when actively buying or selling — real but sporadic usage. A farm-management subscription gives the same subscriber a reason to open the app daily, independent of that week's transactions. Higher daily engagement lowers churn on the core subscription and, just as importantly, reduces "off-platform leakage" — the standard two-sided-marketplace risk where two parties find each other once through the app and then move the relationship to WhatsApp permanently. Every contact-unlock marketplace faces this; giving users a reason to keep opening the app beyond the transaction itself is the standard mitigation.
 
+**Price:** $2.00/month — deliberately close to the existing $3.00 marketplace subscription (Phase 1), not a premium-SaaS price point. It reflects what real paying users have already shown they're willing to pay for this platform, not a guess pulled from farm-management software pricing in wealthier markets, which would exclude the smallholder farmers this is built for.
+
 **Milestone to unlock:** 500 registered users. Below that scale, splitting Mis Cultivos into free and paid tiers doesn't move revenue and there isn't enough usage data yet to know which advanced features farmers actually value. At 500, the farmer base is large enough for a premium tier to generate real incremental revenue and to keep refining based on real usage.
 
 **What it sets up for later:** at real scale, this is also where Sembramos starts accumulating something most Venezuelan smallholder farmers structurally lack — verifiable, multi-cycle crop records. That asset is what Section 12 depends on.
@@ -142,6 +144,8 @@ Every phase below is sequenced deliberately: each one is built on the trust or d
 **Concept:** once Phase 1B (Section 10) has real scale, its crop-cycle records become a verifiable track record most Venezuelan smallholder farmers structurally lack today. Sembramos could use that data to score creditworthiness for input financing (seeds, fertilizer, tools), repaid from the next harvest — a problem several real ag-fintechs have already solved profitably elsewhere.
 
 **Why Sembramos doesn't lend directly:** lending is a regulated financial activity requiring real reserve capital and a license — not something to put on Sembramos's own balance sheet at this stage, or arguably ever, given the company's actual strength is data and software, not capital markets. The professional structure: Sembramos scores and refers; a real lender (a bank, microfinance institution, or input supplier with its own capital) originates the loan and carries the credit risk. Sembramos is the intelligence and distribution layer, not the balance sheet.
+
+**How Sembramos earns from this, specifically:** a one-time origination fee — a percentage of the loan amount, in the 1–2% range — paid by the lending partner when a loan is actually disbursed, never by the farmer and never as a share of loan repayments. Standard economics for a scoring-and-referral intermediary; Sembramos is paid for the introduction and the data, never touches interest income, and carries no repayment risk.
 
 **Real precedent, directly on point:** Apollo Agriculture (Kenya) uses machine-learning credit models built from farm data to give smallholder farmers instant input-financing decisions, repaid from the harvest — not from Apollo's own capital, but structured through securitization backed by real investors. Its most recent raise, closed May 2026, mobilized KES 276M in debt financing for roughly 24,000 farmers, part of a multi-year program targeting 130,000+; the company has raised $70.3M total from investors including SoftBank Vision Fund. This is the exact model — data-driven scoring, third-party capital, farmer-facing distribution — Sembramos would need to replicate, not invent from scratch.
 
@@ -213,6 +217,8 @@ Sources: [Fina raises $1M seed — LatamList](https://latamlist.com/venezuelan-f
 ## PART VII — WHERE SEMBRAMOS IS RIGHT NOW, HONESTLY
 
 This project started in May 2026 — before the founder knew the Build with Gemini XPRIZE existed — as a direct response to a real problem in his own community. It has been built, largely solo, through near-daily iteration: **568 commits since June 13, 2026**, each one reviewed for correctness before shipping, with a documented history of finding and closing real security and product bugs before they reached users.
+
+**How Sembramos grows today, stated plainly:** everything to date has been self-funded and self-managed — no government program, no accelerator, no formal grant. Distribution runs on two channels: organic word of mouth from real users who know the founder directly, and social media, where daily feedback and comments are the actual mechanism through which a Venezuelan farmer learns Sembramos exists. Direct outreach to established regional organizations is also underway — an initial conversation with Integración Nacional de Agroproductores de Venezuela, with a follow-up call planned to walk through how the app works, aimed at eventually introducing it to their own network of farmers. No formal partnership or endorsement exists yet; this is stated as exactly what it is — a real, early conversation, not a signed relationship.
 
 The single most consequential open question right now isn't technical — it's structural: whether to formalize Sembramos as its own legal entity (separate finances, limited liability, a clean story for any future investor) versus continuing to build under the founder's existing sole-proprietorship registration, which is also used for unrelated commercial activity. Both the entity's jurisdiction (Part III, Section 13) and this broader question are being researched deliberately, not rushed — consistent with how the rest of this project has been built.
 
