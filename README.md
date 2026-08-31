@@ -230,5 +230,5 @@ The single most consequential open question right now isn't technical — it's s
 **Production app:** https://sembramos.lat
 **This document:** public, hosted on GitHub
 
-*Prepared with assistance from Claude Code (Anthropic).*
+*Prepared with the assistance of Gemini Pro and Claude Code.*
 *Sembramos — August 2026*
