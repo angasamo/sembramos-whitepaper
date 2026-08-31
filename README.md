@@ -1,7 +1,7 @@
 # SEMBRAMOS — Technical & Business Whitepaper
 ## AI-Native Agricultural Marketplace · Venezuela
 
-**Version 2.3 (final) — August 2026**
+**Version 3.0 — August 2026**
 **Public document — prepared for judges, reviewers, and potential partners of the Build with Gemini XPRIZE**
 
 ---
@@ -91,7 +91,7 @@ reference_price_USD = MEDIAN of confirmed bilateral contracts (7-day rolling win
 
 Median, never average — resistant to a single outlier transaction. With fewer than 3 real transactions for a product, Sembramos shows it honestly as an "initial estimate," never as a real reference. **Today, 0 of 58 catalog items have enough real transaction volume to show a "real" price** — this is stated honestly in the product itself, not hidden.
 
-This median is always computed within a single trade tier — a farmer-to-buyer transaction and a buyer-to-buyer resale transaction are never pooled into the same number (see Part IV, Section 15). A wholesale resale price and a farm-gate price mean different things; blending them would make the reference price ambiguous for the exact people it's meant to protect. Same principle every real wholesale market already follows — farm-gate and wholesale prices are always published as separate figures, never one blended average.
+This median is always computed within a single trade tier — a farmer-to-buyer transaction and a buyer-to-buyer resale transaction are never pooled into the same number (see Part IV, Section 13). A wholesale resale price and a farm-gate price mean different things; blending them would make the reference price ambiguous for the exact people it's meant to protect. Same principle every real wholesale market already follows — farm-gate and wholesale prices are always published as separate figures, never one blended average.
 
 ### 8. ✅ AI planting guidance — real today, not a roadmap item
 
@@ -122,15 +122,9 @@ Every phase below is sequenced deliberately: each one is built on the trust or d
 
 **Why this reinforces Phase 1 instead of competing with it:** a $3/month marketplace subscriber today only has a reason to open the app when actively buying or selling — real but sporadic usage. A farm-management subscription gives the same subscriber a reason to open the app daily, independent of that week's transactions. Higher daily engagement lowers churn on the core subscription and, just as importantly, reduces "off-platform leakage" — the standard two-sided-marketplace risk where two parties find each other once through the app and then move the relationship to WhatsApp permanently. Every contact-unlock marketplace faces this; giving users a reason to keep opening the app beyond the transaction itself is the standard mitigation.
 
-**What it sets up for later:** at real scale, this is also where Sembramos starts accumulating something most Venezuelan smallholder farmers structurally lack — verifiable, multi-cycle crop records. That asset is what Section 12 depends on.
+**What it sets up for later:** at real scale, this is also where Sembramos starts accumulating something most Venezuelan smallholder farmers structurally lack — verifiable, multi-cycle crop records. That asset is what Section 11 depends on.
 
-### 11. 🔮 Phase 2 — Commission on GMV (not built, targeted Q4 2026)
-
-**Concept:** a 1% fee on the subtotal of *bilaterally confirmed* contracts only — never charged on pending, cancelled, or failed contracts, and charged to the buyer (same model as MercadoLibre). This is money Sembramos earns for its own service, not third-party funds — it only requires a normal business bank account, not a fund-holding license.
-
-**Why 1% specifically:** Binance charges 0.1% (high-frequency, thin margins per trade); MercadoLibre charges 2–10% (with escrow, logistics, buyer protection). At Sembramos's transaction size and frequency, 1% is competitive against the ~20–40% margin an informal intermediary already captures today, without Sembramos providing escrow yet. Higher retention from Phase 1B (Section 10) directly compounds this — more transactions stay inside Sembramos instead of moving off-platform once two parties have found each other.
-
-### 12. 🔮 Input-credit facilitation — data-gated, never Sembramos's own capital
+### 11. 🔮 Input-credit facilitation — data-gated, never Sembramos's own capital
 
 **Concept:** once Phase 1B (Section 10) has real scale, its crop-cycle records become a verifiable track record most Venezuelan smallholder farmers structurally lack today. Sembramos could use that data to score creditworthiness for input financing (seeds, fertilizer, tools), repaid from the next harvest — a problem several real ag-fintechs have already solved profitably elsewhere.
 
@@ -140,17 +134,19 @@ Every phase below is sequenced deliberately: each one is built on the trust or d
 
 **Sequencing, stated honestly:** this only becomes credible once Section 10's data has real volume. Scoring credit on a handful of records would be building on nothing — this is explicitly the last piece of Part III to build, not the first.
 
-### 13. 🔮 Phase 3 — Native escrow (not built, targeted Q2 2027)
+### 12. 🔮 Phase 2 — Native escrow (not built — gated on real clients and capital, not a calendar date)
 
-**Concept:** buyer pays into a Sembramos-held account before the seller ships; funds release to the seller once both sides confirm, or automatically after a fixed window if there's no dispute. If disputed, Sembramos reviews photo evidence and the in-app chat history before releasing funds. Unlike Phase 2, this means Sembramos temporarily holds *someone else's* money — a materially bigger regulatory and banking obligation, not just "more commission."
+**Concept:** buyer pays into a Sembramos-held account before the seller ships; funds release to the seller once both sides confirm, or automatically after a fixed window if there's no dispute. If disputed, Sembramos reviews photo evidence and the in-app chat history before releasing funds. This is the point where Sembramos actually holds *someone else's* money for the first time — a materially bigger regulatory and banking obligation than anything in Phase 1 or Phase 1B, and deliberately the only other numbered monetization phase in this roadmap.
+
+**A phase removed on purpose, stated honestly:** an earlier version of this roadmap included an intermediate step — a 1% commission on confirmed trades, charged *without* holding funds. It was cut after closer scrutiny: without fund custody, Sembramos has no reliable way to actually collect a per-transaction fee — it would depend on a separate, voluntarily-paid invoice with weak enforcement, closer to hoping than charging. That made the step more aspirational than real, so the honest roadmap skips straight from subscription revenue (Phase 1B) to the point where collection is actually enforceable: real fund custody.
+
+**What it would charge, roughly:** with real custody, a fee in the 2–3% range is a reasonable planning estimate — informed by the same precedents already in Part VI (Binance's 0.1% reflects zero custody or protection; MercadoLibre's 2–10% reflects real escrow and buyer protection) — still far below the ~20–40% margin an informal intermediary captures today. Not committed; the real number gets set once the legal requirements below are actually satisfied.
 
 **Legal requirements identified, none satisfied yet:** a registered legal entity with a USD-capable corporate bank account able to hold third-party funds, Terms of Service with an explicit escrow clause, and a basic KYC/AML policy for larger transactions.
 
 **Jurisdiction — stated directly, technically, honestly:** this is an open question under active research, not a decision already made. The real constraint isn't "which country sounds best" — it's narrower and more concrete: **Sembramos's founder holds Venezuelan citizenship**, and the most accessible US fintech banking route for international founders, Mercury, has a documented, flat 100% account-closure policy specifically for Venezuelan passport holders — regardless of where the entity itself is incorporated. This isn't a Venezuela-wide OFAC sanction (Venezuela is not comprehensively sanctioned); it's a bank-level risk policy that excludes this specific citizenship. A US entity is not ruled out — it requires finding a specific US bank willing to serve this founder profile before committing capital to US incorporation. Colombia (SAS) and Panama (SA) remain the leading near-term candidates not because they're inherently preferable to a US entity, but because they are realistic paths that can plausibly be *opened and kept operating* — including affording the real, ongoing compliance costs that come with legally holding third-party funds — with a Venezuelan passport. The decision will be made once a specific, workable path (in any jurisdiction) is confirmed open in practice, not chosen on assumption.
 
-### 14. 🔮 Phase 4 — SIEMBRA utility token (not built, 2028+, lowest-confidence part of the roadmap)
-
-A utility token (not an investment instrument) inspired by Binance's BNB model: paying platform fees with SIEMBRA earns a discount, and verified farmers earn SIEMBRA for maintaining real crop-cycle records with the app. This phase has no committed timeline and is included for completeness, not because it's a near-term priority.
+**When, honestly:** no calendar target. Gated on two real inputs that don't exist yet — enough paying clients to justify the legal and compliance investment, and the capital to make that investment — both pursued in parallel with product work, never promised on a quarter.
 
 ---
 
@@ -158,13 +154,13 @@ A utility token (not an investment instrument) inspired by Binance's BNB model: 
 
 Everything in Part III is direct monetization of infrastructure Sembramos already has — the marketplace and, once built, the farm-data layer. The two ideas below go one step further: how the same trust and data assets could extend the platform's reach. Neither is sequenced into a numbered phase and neither has a committed timeline.
 
-### 15. 🔮 Direct connection to end retailers and merchants
+### 13. 🔮 Direct connection to end retailers and merchants
 
 **Concept:** today, Sembramos's marketplace connects farmers to intermediaries and wholesale buyers ("ferieros"). The next logical extension downstream is connecting demand further — to supermarket chains and large-scale end buyers who today source through several layers of intermediation they don't fully see through. This doesn't remove the intermediary layer already using Sembramos; it adds a new, larger class of buyer onto the same reference-price infrastructure everyone already trusts.
 
-**What this requires, stated precisely:** the reference price has to be segmented by trade tier, not extended from the single blended median described in Part II, Section 7 — a farmer-to-buyer price and an intermediary-to-wholesale-buyer resale price shown as two distinct, clearly labeled numbers, never pooled. The data needed already exists (every account's role is already recorded), so this is a filtering change to an existing calculation, not new infrastructure. It also clarifies what monetizes this extension: the same 1% commission from Phase 2 (Section 11) applies here too — a bigger buyer joining doesn't require a new fee mechanism, it means more GMV flowing through the one Sembramos already has planned.
+**What this requires, stated precisely:** the reference price has to be segmented by trade tier, not extended from the single blended median described in Part II, Section 7 — a farmer-to-buyer price and an intermediary-to-wholesale-buyer resale price shown as two distinct, clearly labeled numbers, never pooled. The data needed already exists (every account's role is already recorded), so this is a filtering change to an existing calculation, not new infrastructure. It also clarifies what monetizes this extension: a large institutional buyer is exactly the counterparty that benefits most from Phase 2's escrow protection (Section 12) once it exists — this extension is a natural fit for that stage rather than something needing its own separate fee mechanism.
 
-### 16. 🔮 From individual advice to national-scale agricultural planning
+### 14. 🔮 From individual advice to national-scale agricultural planning
 
 Part II, Section 8 described what the AI planting-guidance layer already does today, for one farmer at a time. The longer-term vision: the same aggregated, anonymized data that powers one farmer's recommendation today could, at national scale, inform real crop-diversification patterns across regions — reducing the oversupply-in-one-place, shortage-in-another whiplash that shows up in Sembramos's own price data (the exact $35-vs-$115 gap this document opens with). This is explicitly presented as an extension of something already built and running, not a new, unproven feature category.
 
@@ -177,8 +173,8 @@ Part II, Section 8 described what the AI planting-guidance layer already does to
 | Founder solo, unlimited personal liability (sole proprietorship structure) | Under active evaluation: forming a dedicated legal entity for Sembramos, separate from the founder's other commercial activity |
 | Low current transaction volume (10 real contracts, 1 completed) | Small sample size is stated honestly everywhere in the product itself — no fabricated "real" price is ever shown |
 | Regulatory risk if Venezuela regulates digital marketplaces | Roadmap already anticipates a foreign legal entity before any money-holding feature (escrow) launches |
-| Founder's citizenship restricts the most accessible US banking routes (see Part III, Section 13) | Multiple jurisdictions under active, parallel research — decision gated on confirmed real-world operability, not assumption |
-| Input-credit facilitation means introducing real third-party credit risk and counterparty dependence (Part III, Section 12) | Sembramos never lends directly — only scores and refers to a licensed lending partner; explicitly sequenced behind Phase 1B reaching real data scale, not built prematurely |
+| Founder's citizenship restricts the most accessible US banking routes (see Part III, Section 12) | Multiple jurisdictions under active, parallel research — decision gated on confirmed real-world operability, not assumption |
+| Input-credit facilitation means introducing real third-party credit risk and counterparty dependence (Part III, Section 11) | Sembramos never lends directly — only scores and refers to a licensed lending partner; explicitly sequenced behind Phase 1B reaching real data scale, not built prematurely |
 | Low rural internet penetration | Voice-first design + offline-tolerant data writes already in production |
 | Distrust of digital platforms in an informal cash economy | Free, no-login public price reference; real farmer testimonials; voice mode for users who can't read or write |
 
@@ -205,7 +201,7 @@ Sources: [Fina raises $1M seed — LatamList](https://latamlist.com/venezuelan-f
 
 This project started in May 2026 — before the founder knew the Build with Gemini XPRIZE existed — as a direct response to a real problem in his own community. It has been built, largely solo, through near-daily iteration: **568 commits since June 13, 2026**, each one reviewed for correctness before shipping, with a documented history of finding and closing real security and product bugs before they reached users.
 
-The single most consequential open question right now isn't technical — it's structural: whether to formalize Sembramos as its own legal entity (separate finances, limited liability, a clean story for any future investor) versus continuing to build under the founder's existing sole-proprietorship registration, which is also used for unrelated commercial activity. Both the entity's jurisdiction (Part III, Section 13) and this broader question are being researched deliberately, not rushed — consistent with how the rest of this project has been built.
+The single most consequential open question right now isn't technical — it's structural: whether to formalize Sembramos as its own legal entity (separate finances, limited liability, a clean story for any future investor) versus continuing to build under the founder's existing sole-proprietorship registration, which is also used for unrelated commercial activity. Both the entity's jurisdiction (Part III, Section 12) and this broader question are being researched deliberately, not rushed — consistent with how the rest of this project has been built.
 
 ---
 
